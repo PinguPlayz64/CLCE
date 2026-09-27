@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: clce
+Version: 0.1.0
+Summary: A code editor that runs in your terminal
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: prompt_toolkit>=3.0.51
+Requires-Dist: Pygments>=2.19
+
+# CLCE
+
+CLCE (Command Line Code Editor) is a lightweight, full-screen code editor for your terminal.
+
+## Run
+
+```powershell
+python -m pip install -e .
+clce path\to\file.py
+```
+
+You can also start with a blank `untitled.txt` buffer by running `clce` without a path.
+
+## Keys
+
+| Key | Action |
+| --- | --- |
+| `Ctrl+S` | Save |
+| `F2` | Save as |
+| `Ctrl+O` | Open a file |
+| `Ctrl+F` | Find text |
+| `Ctrl+Q` | Quit |
+
+Syntax highlighting is selected from the file extension. The editor uses UTF-8 for file input and output.

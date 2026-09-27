@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/clce/__init__.py
+src/clce/__main__.py
+src/clce.egg-info/PKG-INFO
+src/clce.egg-info/SOURCES.txt
+src/clce.egg-info/dependency_links.txt
+src/clce.egg-info/entry_points.txt
+src/clce.egg-info/requires.txt
+src/clce.egg-info/top_level.txt
+tests/test_files.py

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clce"
+version = "0.1.0"
+description = "A code editor that runs in your terminal"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "prompt_toolkit>=3.0.51",
+    "Pygments>=2.19",
+]
+
+[project.scripts]
+clce = "clce:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
